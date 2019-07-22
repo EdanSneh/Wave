@@ -13,8 +13,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -30,4 +30,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Wave {
+  background-color: #dfdfdf;
+  position: relative;
+  left: 30px;
+  height: 400px;
+  width: 800px;
+  overflow: auto;
+  
+}
+
+.Sliders {
+  position: absolute;
+  top: 100px;
+  right: 30px;
+  height: 30px;
+  width: 200px;
+
+}
+
+.Slider-heads {
+  font-size: 12px
 }
