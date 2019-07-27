@@ -8,6 +8,10 @@ class Wave extends React.Component {
     } 
 
     makePath() {
+        // console.log()
+        if (this.props.func === undefined) {
+            return (<path d={"M 0 0 L 0 0 z"} style={{strokeWidth: 10, stroke: this.state.color, fillOpacity: 0}}/>);
+        }
         const datax = range(0, 30, .1);
 
         
@@ -19,11 +23,6 @@ class Wave extends React.Component {
             }
             return ans;
         }
-        // const func = (array) => {
-        //     let data = [];
-        //     array.forEach((x) => data.push(Math.cos(x)));
-        //     return data;
-        // }
         let datay = this.props.func(datax);
         let svgData = "M " + datax[0]*this.state.strokeSize + " " + datay[0]*this.state.strokeSize;
         for (let i = 1; i < datax.length; i++) {

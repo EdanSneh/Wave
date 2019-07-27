@@ -8179,6 +8179,11 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
+react-tone@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-tone/-/react-tone-1.1.1.tgz#a4113e867fb9cb0c9ab2607a5456fb9da2ec1255"
+  integrity sha512-ZjEKVkfmFUmBogVokE7XTboOZqHctHRj1HO8m5OIniAt8f80MWCPpWWTWLYDxLbd29+KrK+/PeznGgnfVAlSNQ==
+
 react-transition-group@^4.0.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.2.1.tgz#61fc9e36568bff9a1fe4e60fae323c8a6dbc0680"
